@@ -11,10 +11,11 @@ bin/kafka-server-start.sh config/kraft/server.properties
 # For running it in the background and closing the terminal
 bin/kafka-server-start.sh config/kraft/server.properties &
 
+/n
 
 To terminate Kafka up on my local machine I must run:
 # in the terminal run
 ps aux | grep kafka
 # use this to kill the first process ID found in the preivous line example: kill 58668
-kill <PID>
-#Alternativly you can close the terminal window it is running on
+kill ###
+# Alternativly you can close the terminal window it is running on
