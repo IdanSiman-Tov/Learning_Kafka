@@ -11,8 +11,6 @@ bin/kafka-server-start.sh config/kraft/server.properties
 # For running it in the background and closing the terminal
 bin/kafka-server-start.sh config/kraft/server.properties &
 
-/n
-
 To terminate Kafka up on my local machine I must run:
 # in the terminal run
 ps aux | grep kafka
